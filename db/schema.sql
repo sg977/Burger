@@ -1,6 +1,4 @@
 
-CREATE DATABASE burgers_db;
-USE burgers_db;
 
 CREATE TABLE burgers (
  id int NOT NULL AUTO_INCREMENT,
@@ -8,3 +6,4 @@ CREATE TABLE burgers (
  devoured boolean DEFAULT false,
  PRIMARY KEY(id)
 );
+

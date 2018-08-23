@@ -1,9 +1,11 @@
+
 var mysql = require('mysql'); 
 //var key = require(“../config/password.js”);
 
 
 //var key = require(“../config/password.js”);
 // Create the MySQL connection object
+
 var connection;
 
 if (process.env.JAWSDB_URL) {
@@ -19,6 +21,7 @@ if (process.env.JAWSDB_URL) {
 		database: 'burgers_db'
 	})
 };
+
 
 
 
